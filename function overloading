@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int sum(int X) {
+    return X*X;
+}
+int sum (int X,int Y)
+{
+    return X*Y;
+}
+int main ()
+{
+    cout<<sum(2);
+    cout<<endl<<sum(2,4);
+    return 0;
+}
+
